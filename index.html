@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OneTrack | Repair, Inventory & POS</title>
+  <meta name="description" content="OneTrack brings job orders, inventory, sales and cash management together for repair shops.">
+  <style>
+    :root { --navy:#071b3a; --blue:#0c68c5; --sky:#16b8e9; --mint:#24c59a; --text:#eaf2ff; --muted:#a9bfdc; }
+    * { box-sizing:border-box; } body { margin:0; color:var(--text); background:var(--navy); font:16px/1.55 Arial, sans-serif; }
+    .hero { min-height:100vh; padding:28px max(6vw,24px) 72px; overflow:hidden; background:radial-gradient(circle at 88% 12%,#0c68c5 0,transparent 29%),radial-gradient(circle at 15% 80%,#0f8bbd 0,transparent 26%),linear-gradient(135deg,#06142e,#0a3467); }
+    nav { display:flex; align-items:center; justify-content:space-between; gap:20px; max-width:1120px; margin:auto; } .brand { display:flex; align-items:center; gap:12px; color:#fff; font-size:22px; font-weight:800; text-decoration:none; letter-spacing:.2px; }
+    .mark { width:44px; height:44px; display:grid; place-items:center; border:3px solid #fff; border-radius:50%; color:#fff; font-size:23px; font-weight:900; transform:rotate(-8deg); box-shadow:0 0 0 6px rgba(22,184,233,.2); } .support { color:var(--muted); text-decoration:none; font-weight:700; }
+    .intro { max-width:1120px; margin:94px auto 0; display:grid; grid-template-columns:1.15fr .85fr; gap:52px; align-items:center; } .tag { display:inline-block; padding:7px 12px; color:#dffaff; background:rgba(22,184,233,.16); border:1px solid rgba(122,228,255,.35); border-radius:999px; font-size:13px; font-weight:700; letter-spacing:.4px; }
+    h1 { max-width:720px; margin:20px 0 16px; font-size:clamp(42px,6vw,74px); line-height:1.05; letter-spacing:-2px; } .lead { max-width:625px; color:var(--muted); font-size:20px; } .actions { display:flex; flex-wrap:wrap; gap:14px; margin-top:30px; } .button { display:inline-block; padding:13px 19px; border-radius:10px; text-decoration:none; font-weight:800; } .primary { color:#00253a; background:#4ee6ff; } .secondary { color:#eaf2ff; border:1px solid rgba(234,242,255,.35); }
+    .panel { padding:25px; background:rgba(7,27,58,.68); border:1px solid rgba(149,209,255,.24); border-radius:22px; box-shadow:0 25px 70px rgba(0,0,0,.28); } .panel h2 { margin:0 0 8px; font-size:21px; } .panel p { margin:0 0 18px; color:var(--muted); } .metrics { display:grid; grid-template-columns:1fr 1fr; gap:12px; } .metric { padding:16px; border-radius:12px; background:rgba(255,255,255,.06); } .metric strong { display:block; color:#fff; font-size:18px; } .metric span { color:#a9bfdc; font-size:13px; }
+    main { max-width:1120px; margin:0 auto; padding:78px max(6vw,24px); } .section-head { max-width:660px; margin-bottom:30px; } h2 { margin:0 0 10px; font-size:34px; } .section-head p { color:#496585; margin:0; } .features { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; } .feature { padding:24px; border:1px solid #dceaf9; border-radius:16px; background:#fff; color:#18334f; } .feature b { display:block; margin:12px 0 6px; font-size:18px; } .feature p { margin:0; color:#56708b; } .icon { width:42px; height:42px; display:grid; place-items:center; border-radius:11px; color:#fff; background:linear-gradient(135deg,#0b74d1,#16b8e9); font-size:21px; }
+    .release { margin-top:70px; display:flex; align-items:center; justify-content:space-between; gap:24px; padding:30px; color:#eaf2ff; border-radius:18px; background:linear-gradient(120deg,#092d59,#0c68a2); } .release h2 { font-size:26px; } .release p { margin:5px 0 0; color:#c7e6f5; }
+    footer { padding:28px 24px; color:#a9bfdc; background:#051225; text-align:center; } footer a { color:#66dffa; }
+    @media(max-width:760px) { .intro { grid-template-columns:1fr; margin-top:64px; } .features { grid-template-columns:1fr; } .release { display:block; } .release .button { margin-top:18px; } .support { display:none; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <nav><a class="brand" href="#top"><span class="mark">1T</span> OneTrack</a><a class="support" href="mailto:onetrack.support@gmail.com">onetrack.support@gmail.com</a></nav>
+    <section class="intro" id="top">
+      <div><span class="tag">REPAIR • INVENTORY • POS</span><h1>One system.<br>One track.<br>Total control.</h1><p class="lead">OneTrack helps repair shops manage job orders, stock, sales, cash flow and customer records in one simple desktop system.</p><div class="actions"><a class="button primary" href="https://github.com/OneTrackSolution/OneTrack/releases">View Downloads</a><a class="button secondary" href="mailto:onetrack.support@gmail.com">Contact Support</a></div></div>
+      <aside class="panel"><h2>Built for repair shops</h2><p>Designed for computer, laptop, printer and mobile-phone repair businesses.</p><div class="metrics"><div class="metric"><strong>Job Orders</strong><span>Track every repair</span></div><div class="metric"><strong>Inventory</strong><span>Manage parts & stock</span></div><div class="metric"><strong>POS Sales</strong><span>Fast, clear checkout</span></div><div class="metric"><strong>Cash Drawer</strong><span>Payments & expenses</span></div></div></aside>
+    </section>
+  </header>
+  <main>
+    <div class="section-head"><h2>Everything your shop needs</h2><p>Simple tools for tracking repairs and running day-to-day operations with confidence.</p></div>
+    <section class="features"><article class="feature"><div class="icon">⌕</div><b>Job Order Management</b><p>Record devices, diagnostics, service details, technician work, payments, warranties and release status.</p></article><article class="feature"><div class="icon">▣</div><b>Inventory Control</b><p>Track item codes, brands, models, suppliers, stock quantity, cost price and selling price.</p></article><article class="feature"><div class="icon">₱</div><b>Sales & Cash Flow</b><p>Process sales, payments and job-order balances while keeping cash-in and expenses organized.</p></article></section>
+    <section class="release"><div><h2>OneTrack for Windows</h2><p>See the latest available version and release notes on GitHub.</p></div><a class="button primary" href="https://github.com/OneTrackSolution/OneTrack/releases">Open Downloads</a></section>
+  </main>
+  <footer>© 2026 OneTrack Software · <a href="mailto:onetrack.support@gmail.com">onetrack.support@gmail.com</a> · Facebook: OneTrack</footer>
+</body>
+</html>
